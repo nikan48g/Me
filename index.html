@@ -1,1 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Nikan's personal portfolio — projects, tools, experiments and a suspicious amount of cat energy." />
+  <meta name="theme-color" content="#f6f1e8" />
+  <title>Nikan — Developer & Builder</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Nikan home">
+        <span class="brand-dot"></span>
+        <span>Nikan</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#stack">Stack</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle theme">
+        <span class="theme-icon">☾</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy">
+          <span class="eyebrow">developer • builder • cat-powered human</span>
+          <h1>Shalam :))<br />I'm <span class="accent">Nikan</span>.</h1>
+          <p class="hero-text">
+            I build Android apps, web tools, small experiments and whatever idea refuses to leave my head.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="https://github.com/nikan48g" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a class="button secondary" href="#projects">See my projects</a>
+          </div>
+
+          <div class="mini-note">
+            <span class="status-dot"></span>
+            Currently working on Bisnor
+          </div>
+        </div>
+
+        <div class="cat-wrap" aria-label="A very important cat section">
+          <div class="cat-card">
+            <img
+              src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=900&q=85"
+              alt="A cat looking at the camera"
+              loading="eager"
+            />
+            <div class="cat-caption">
+              <span>chief debugging officer</span>
+              <span>🐈</span>
+            </div>
+          </div>
+          <div class="bubble bubble-one"></div>
+          <div class="bubble bubble-two"></div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <span class="eyebrow">things I actually shipped</span>
+          <h2>Projects</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-topline">
+              <span class="project-emoji">💎</span>
+              <span class="project-status active">Active</span>
+            </div>
+            <h3>Bisnor</h3>
+            <p>A modern Android client for browsing and streaming movies and TV series with a fast, polished Persian-first experience.</p>
+            <div class="project-tags">
+              <span>Android</span>
+              <span>Media3</span>
+              <span>Retrofit</span>
+              <span>Supabase</span>
+            </div>
+            <a class="project-link" href="https://github.com/nikan48g/Bisnor" target="_blank" rel="noreferrer">View repository ↗</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-emoji">🐈‍⬛</span>
+              <span class="project-status archived">Archived</span>
+            </div>
+            <h3>CatNG</h3>
+            <p>An open-source Android Xray client with Material Design 3, smart subscription management and fast concurrent ping testing.</p>
+            <div class="project-tags">
+              <span>Android</span>
+              <span>Compose</span>
+              <span>Xray</span>
+              <span>VPN</span>
+            </div>
+            <a class="project-link" href="https://github.com/nikan48g/CatNG" target="_blank" rel="noreferrer">View repository ↗</a>
+          </article>
+
+          <article class="project-card soft-card">
+            <div class="project-topline">
+              <span class="project-emoji">🧪</span>
+              <span class="project-status experiments">Experiments</span>
+            </div>
+            <h3>More things</h3>
+            <p>Browser extensions, little tools, automation experiments and ideas that may or may not become real projects.</p>
+            <div class="project-tags">
+              <span>Web</span>
+              <span>Python</span>
+              <span>Automation</span>
+            </div>
+            <a class="project-link" href="https://github.com/nikan48g?tab=repositories" target="_blank" rel="noreferrer">Browse GitHub ↗</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="stack" class="section stack-section">
+        <div class="section-heading">
+          <span class="eyebrow">the toolbox</span>
+          <h2>Things I work with</h2>
+          <p>Same badge style as my GitHub profile, because consistency is apparently a thing humans value.</p>
+        </div>
+
+        <div class="badge-cloud" aria-label="Technology stack">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+          <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+          <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+          <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+          <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+          <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
+          <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+          <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+          <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+          <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+          <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+          <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+          <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+          <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+        </div>
+      </section>
+
+      <section id="about" class="section about-grid">
+        <div class="about-card">
+          <span class="eyebrow">about me</span>
+          <h2>I like making small ideas real.</h2>
+          <p>
+            I'm into Android, web development, Linux, cloud stuff and automation. Most of what I make starts as a tiny experiment and slowly becomes something people can actually use.
+          </p>
+          <p>
+            I prefer simple tools, clean interfaces and projects that do one useful thing well.
+          </p>
+        </div>
+
+        <aside class="contact-card">
+          <span class="eyebrow">find me</span>
+          <h3>Elsewhere on the internet</h3>
+          <a href="https://github.com/nikan48g" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          <a href="https://x.com/nikan48_gg" target="_blank" rel="noreferrer">X / Twitter <span>↗</span></a>
+          <a href="mailto:drive.storage.hnn@gmail.com">Email <span>↗</span></a>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Made by Nikan.</span>
+      <span>Probably debugged by a cat. 🐾</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
