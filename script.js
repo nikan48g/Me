@@ -11,7 +11,7 @@ function applyTheme(theme) {
   localStorage.setItem('theme', theme);
   if (icon) icon.textContent = theme === 'dark' ? '☀' : '☾';
   const metaTheme = document.querySelector('meta[name="theme-color"]');
-  if (metaTheme) metaTheme.setAttribute('content', theme === 'dark' ? '#101412' : '#f6f1e8');
+  if (metaTheme) metaTheme.setAttribute('content', theme === 'dark' ? '#171513' : '#fff8ef');
 }
 
 applyTheme(initialTheme);
